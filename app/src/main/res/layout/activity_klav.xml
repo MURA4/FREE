@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bdo"
+        android:layout_width="50dp"
+        android:textSize="18dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/my_button_bg2"
+        android:text="С"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/bsol"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_toEndOf="@+id/bfa"
+        android:layout_toRightOf="@+id/bfa"
+        android:textSize="18dp"
+        android:background="@drawable/my_button_bg2"
+        android:text="G"
+        app:layout_constraintStart_toEndOf="@+id/bfa"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/bla"
+        android:textSize="18dp"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_toEndOf="@+id/bsol"
+        android:layout_toRightOf="@+id/bsol"
+        android:background="@drawable/my_button_bg2"
+        android:text="A"
+        app:layout_constraintStart_toEndOf="@+id/bsol"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/bsi"
+        android:layout_width="54dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/bla"
+        android:layout_toRightOf="@+id/bla"
+        android:background="@drawable/my_button_bg2"
+        android:text="H"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/bla"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/bdo2"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_toEndOf="@+id/bsi"
+        android:layout_toRightOf="@+id/bsi"
+        android:background="@drawable/my_button_bg2"
+        android:text="C"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/bsi"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/bfa"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_toEndOf="@+id/bmi"
+        android:layout_toRightOf="@+id/bmi"
+        android:background="@drawable/my_button_bg2"
+        android:text="F"
+        app:layout_constraintStart_toEndOf="@+id/bmi"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/bmi"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_toEndOf="@+id/bre"
+        android:layout_toRightOf="@+id/bre"
+        android:background="@drawable/my_button_bg2"
+        android:textSize="18dp"
+        android:text="E"
+        app:layout_constraintStart_toEndOf="@+id/bre"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <Button
+        android:id="@+id/bre"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:textSize="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/bdo"
+        android:layout_toRightOf="@+id/bdo"
+        android:background="@drawable/my_button_bg2"
+        android:text="D"
+        app:layout_constraintStart_toEndOf="@+id/bdo"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="26dp"
+        android:layout_height="125dp"
+        android:layout_alignTop="@+id/bdo"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_toStartOf="@+id/bsi"
+        android:layout_toLeftOf="@+id/bsi"
+        android:layout_toEndOf="@+id/bfa"
+        android:layout_toRightOf="@+id/bfa"
+        android:background="#000000"
+        android:text="A#"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toStartOf="@+id/bdo2"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="@+id/bla"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="26dp"
+        android:layout_height="125dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_toEndOf="@+id/bsol"
+        android:layout_toRightOf="@+id/bsol"
+        android:background="#000000"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:text="G#"
+        app:layout_constraintEnd_toStartOf="@+id/bsi"
+        app:layout_constraintStart_toEndOf="@+id/bfa"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="26dp"
+        android:layout_height="125dp"
+        android:layout_alignStart="@+id/bfa"
+        android:layout_alignLeft="@+id/bfa"
+        android:layout_alignTop="@+id/bdo"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_toStartOf="@+id/bla"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:layout_toLeftOf="@+id/bla"
+        android:background="#000000"
+        android:text="F#"
+        app:layout_constraintEnd_toStartOf="@+id/bla"
+        app:layout_constraintStart_toEndOf="@+id/bmi"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="26dp"
+        android:layout_height="125dp"
+        android:layout_alignStart="@+id/bdo"
+        android:layout_alignLeft="@+id/bdo"
+        android:layout_alignTop="@+id/bdo"
+        android:layout_alignEnd="@+id/bre"
+        android:layout_alignRight="@+id/bre"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#000000"
+        android:text="D#"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="@+id/bmi"
+        app:layout_constraintStart_toStartOf="@+id/bre"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="26dp"
+        android:layout_height="125dp"
+        android:layout_alignStart="@+id/bre"
+        android:layout_alignLeft="@+id/bre"
+        android:layout_alignEnd="@+id/bmi"
+        android:layout_alignRight="@+id/bmi"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#000000"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:text="C#"
+        app:layout_constraintEnd_toEndOf="@+id/bre"
+        app:layout_constraintStart_toStartOf="@+id/bdo"
+        tools:layout_editor_absoluteY="0dp" />
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/interval"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/inter" />
+
+        <Button
+            android:id="@+id/accord"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/akkord"
+            android:shape="ring" />
+
+        <Button
+            android:id="@+id/klav"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pianino" />
+
+        <Button
+            android:id="@+id/gamma"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/gamma" />
+
+        <Button
+            android:id="@+id/chat"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/chat" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
